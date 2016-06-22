@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components_metrics>
+	<component>
+	 <name>metrics-module-citation</name>
+	 <description>Citations in publications</description>
+	 <authors>Artaza Haydee, Manuel Corpas, Rafael Jimenez</authors>
+	 <input>
+      <parameter>swissprot,swiss prot,swiss-prot,UniProtKB,uniprot</parameter>
+     </input>
+	 <output>number</output>
+	 <dependencies>
+		<library>xml2js</library> 
+	 </dependencies>
+	 <frequency>monthly</frequency>
+	 <resources>
+		<rsc>database</rsc>	
+	 </resources>
+	 <repository>https://github.com/elixirhub/metrics-module-citation.git</repository>
+	</component>
+</components_metrics>
