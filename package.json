@@ -1,0 +1,19 @@
+{
+  "name": "metrics-module-citation",
+  "version": "0.1.0",
+  "description": "This Metric defines the searching of specific Keyword into a publication stored in Pubmed Central repository",
+  "author": "Earlham-EBI",
+  "contributors": [{"name": "Haydee Artaza, Rafael Girado","email": "haydee.artaza@earlham.ac.uk,rafael.jimenez@elixir-europe.org"}],
+  "keywords": [
+	  "metrics",
+	  "citation",
+	  "publication"
+	],
+	"private": true,
+	"dependencies": {
+		"xml2js": "latest"
+  },
+  "subdomain": "metrics",
+  "analyze": true,
+  "license": "Earlham"
+}
