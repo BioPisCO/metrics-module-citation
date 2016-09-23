@@ -15,6 +15,6 @@
 	 <resources>
 		<rsc>database</rsc>	
 	 </resources>
-	 <repository>https://github.com/elixirhub/metrics-module-citation.git</repository>
+	 <repository>https://github.com/BioPisCO/metrics-module-citation.git</repository>
 	</component>
 </components_metrics>
