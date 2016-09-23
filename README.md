@@ -19,7 +19,19 @@ This Metric defines the searching of specific Keyword into a publication stored 
   2. **ncbiconf.js**: setup path (endpoints) and parameters (query).
   3. **ncbirequest.js**:  manage the request (GET, POST, PUT) and response (encoding, data, end, close) with the NCBI API endpoint.
 
-## Example:
+## Example
 1. **Input**: Uniprot
-2. **Query**:   [http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=uniprot/[text word/]&version=2.0]
+2. **Query**: (http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=uniprot[text word]&version=2.0)
 3. **Output**: 13067 records (this result will change depend on date of execution).
+
+## Git
+
+```git clone https://github.com/BioPisCO/metrics-module-citation.git```
+
+## Requirements
+
+  1. Nodejs
+  2. npm
+
+## Install library dependencies
+  ```nmp install```
