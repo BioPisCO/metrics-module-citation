@@ -21,7 +21,7 @@ This Metric defines the searching of specific Keyword into a publication stored 
 
 ## Example
 1. **Input**: Uniprot
-2. **Query**: (http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=uniprot\[text word\]&version=2.0)
+2. **Query**: [http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=uniprot\[text word\]&version=2.0]
 3. **Output**: 13067 records (this result will change depend on date of execution).
 
 ## Git
