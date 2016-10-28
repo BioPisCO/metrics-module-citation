@@ -26,7 +26,7 @@ This Metric defines the searching of specific Keyword into a publication stored 
 
 ## Git
 
-```git clone https://github.com/BioPisCO/metrics-module-citation.git```
+`git clone https://github.com/BioPisCO/metrics-module-citation.git`
 
 ## Requirements
 
@@ -34,4 +34,9 @@ This Metric defines the searching of specific Keyword into a publication stored 
   2. npm
 
 ## Install library dependencies
-  ```nmp install```
+  `nmp install`
+  
+## Command line execution
+ `node example/example-citations.js Uniprot`
+
+
