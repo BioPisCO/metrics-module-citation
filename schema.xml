@@ -5,15 +5,15 @@
 	 <description>Citations in publications</description>
 	 <authors>Artaza Haydee, Manuel Corpas, Rafael Jimenez</authors>
 	 <input>
-      <parameter>swissprot,swiss prot,swiss-prot,UniProtKB,uniprot</parameter>
+      <parameter>BLAST</parameter>
      </input>
 	 <output>number</output>
 	 <dependencies>
 		<library>xml2js</library> 
 	 </dependencies>
-	 <frequency>monthly</frequency>
+	 <frequency>daily</frequency>
 	 <resources>
-		<rsc>database</rsc>	
+		<rsc>software</rsc>	
 	 </resources>
 	 <repository>https://github.com/BioPisCO/metrics-module-citation.git</repository>
 	</component>
